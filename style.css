@@ -1,30 +1,76 @@
-*{
+body{
+    margin: 0;
+    padding: 0;
+    font: 15px/1,5;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+}
+
+/* global */
+.container{
+    margin: 0%;
+    width: 85%;
+    overflow: hidden;
+}
+
+/* header **/
+header{
+    padding-top: 30px;
+    background-color: aqua;
+    min-height: 70px;
+}
+
+header a{
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: blue;
+    font-weight: bold;
+}
+
+header ul{
     margin: 0;
     padding: 0;
 }
 
-nav{
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    width: 100%;
-    padding: 20px 0;
+header li{
     text-align: center;
-    
-}
-
-nav ul li{
     display: inline-block;
-    margin: 10px 20px;
-    list-style: none;
+    padding: 0 20px;
+    float: center;
 }
 
-nav ul li a{
+header a:hover{
+    color: red;
+}
+
+section{
+    float: left;
+    padding: 0;
+    background-color: chocolate;
+    margin: 0 20px;
+    margin-top: 20px;
+}
+
+
+.container h1{
+    font-size: 30px;
+    font-style: italic;
+}
+
+.container p{
+    font-size: 20pxpx;
+    text-align: inherit;
+    list-style-type: georgian;
+}
+
+aside{
+    float: right;
+    font-size: 20px;
     text-decoration: none;
-    color: brown;
-    font-weight: bold;
-}
+    background-color: darkseagreen;
+    padding-top: 10px;
+    margin-top: 40px;
+    margin: 0 20px 0 20px;
 
-nav ul li a:hover{
-    color: blue;
 }
