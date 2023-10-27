@@ -11,6 +11,8 @@ body{
     margin: 0%;
     width: 85%;
     overflow: hidden;
+    margin-top: 10px;
+    padding-top: 10px;
 }
 
 /* header **/
@@ -37,7 +39,6 @@ header li{
     text-align: center;
     display: inline-block;
     padding: 0 20px;
-    float: center;
 }
 
 header a:hover{
@@ -59,7 +60,7 @@ section{
 }
 
 .container p{
-    font-size: 20pxpx;
+    font-size: 20px;
     text-align: inherit;
     list-style-type: georgian;
 }
@@ -87,4 +88,11 @@ section.jan{
     margin-bottom: 10px;
     margin: 0 20px 0 20px;
     padding: 10px;
+}
+
+.pet{
+    margin: 30px;
+    float: left;
+    margin-top: 0;
+    background-color: aqua;
 }
